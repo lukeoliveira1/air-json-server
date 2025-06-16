@@ -40,7 +40,7 @@ export default function ContactDetailPage() {
     <div className="flex justify-center items-center py-6">
       <div className="w-full max-w-md relative">
         <div className="flex justify-end mb-2">
-          <Button variant="default" onClick={() => router.push("/")}>
+          <Button className="cursor-pointer" variant="default" onClick={() => router.push("/")}>
             Voltar
           </Button>
         </div>
